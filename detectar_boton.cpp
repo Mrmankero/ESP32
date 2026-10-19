@@ -1,4 +1,4 @@
-/*
+// Este programa se realizo con VScode y con la extension PlatformIO
 #include <Arduino.h>
 
 #define pinLED 2
@@ -16,4 +16,3 @@ void loop() {
         digitalWrite(pinLED, LOW);
     }
 }
-*/
