@@ -1,4 +1,4 @@
-/*
+// Este programa fue realizado con VScode y con la extension PlatformIO
 #include <Arduino.h>
 
 const int pinPot = 4;
@@ -24,4 +24,3 @@ void loop() {
 
     delay(50);
 }
-*/
