@@ -1,11 +1,13 @@
-/*#include <Arduino.h>
+// Este programa se realizo con VScode y con la extension PlatformIO
+#include <Arduino.h>
 
+// Creamos las variables para los pines
 #define POT 15
 #define BOTON 4
 #define LED1 2
 #define LED2 17
 
-
+// Configuramos esos pines
 void setup() {
     pinMode(POT, INPUT);
     pinMode(BOTON, INPUT_PULLDOWN);
@@ -18,6 +20,8 @@ void setup() {
 void loop() {
     // Creamos una variable para detectar el potenciometro
     int valor_pot = analogRead(POT);
+
+    // Creamos una  variable de brillo para el led
     int brillo = map(valor_pot, 0, 4095, 0, 255);
     Serial.print("Valor potenciometro: ");
     Serial.println(valor_pot);
