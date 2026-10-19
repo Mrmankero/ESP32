@@ -1,4 +1,4 @@
-/*
+// Este programa se realizo con VScode y con la extension PlatformIO
 #include <Arduino.h>
 
 #define pinPote 4
@@ -15,4 +15,3 @@ void loop() {
     Serial.println(valorPot);
     delay(500);
 }
-*/
