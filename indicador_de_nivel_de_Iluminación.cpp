@@ -1,4 +1,4 @@
-/*
+// Este programa se realizo con VScode y con la extension PlatformIO
 #include <Arduino.h>
 
 // Creamos variables para los pines de los led y el potenciometro
@@ -19,12 +19,6 @@ void setup() {
 
 // Configuramos el programa para el esp32
 void loop() {
-    // 0 - 0%       verde
-    // 63 - 25%     |---------+
-    // 127 - 50%    amarillo |
-    // 190 - 75%    |--------+
-    // 255 - 100%   rojo
-
     // Analizamos la entrada analogica del potenciometro
     int valor_pote = analogRead(pote);
     int brillo = map(valor_pote, 0, 4095, 0, 255);
@@ -48,4 +42,3 @@ void loop() {
 
     delay(100);
 }
-*/
