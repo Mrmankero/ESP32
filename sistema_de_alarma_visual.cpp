@@ -1,3 +1,4 @@
+// Este programa fue creado desde VScode con PlatformIO
 #include <Arduino.h>
 
 // Creamos las variables de leds y potenciometro
